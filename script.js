@@ -1,4 +1,4 @@
-// The Password generator will provide a password with 8-50  characters based on criteria the user specifies.
+// The Password generator will provide a password with 8-120  characters based on criteria the user specifies.
 
 //Assignment Code + Event Listener to prompt questions when button pushed
 document.querySelector("#generate").addEventListener("click", writePassword);
