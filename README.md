@@ -22,6 +22,6 @@ THEN the password is either displayed in an alert or written to the page
 
 
 
-## screenshot when you enter a number outside of the desired number
+# screenshot when you enter a number outside of the desired number
 
 <img width="835" alt="Screen Shot 2022-11-30 at 18 46 08 pm" src="https://user-images.githubusercontent.com/113915529/204737344-bd33bbc9-599f-4b08-ad44-193deb1e2470.png">
