@@ -1,7 +1,8 @@
 # Password-Generator
 this is a simple password generator with simple javaScript codes
 
-# About this project
+## About this project
+
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria
