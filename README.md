@@ -1,26 +1,33 @@
 # Password-Generator
 this is a simple password generator with simple javaScript codes
 
-## About this project
+# About this project
 
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+ A password is randomly generated based on criteria that the user provides when prompted.
+
+When the user clicks the button "Generate Password" they are first promoted for password length. If user enter outside the range of 8-120, the user is prompted to try again to enter a password length within the range. The prompt will keep going until the user enters the desired number.
+
+The program then prompts the user to define if they would like to include numbers, characters, uppercase and/or lowercase letters. If the user selects none to all criteria, the program will ask it to select at least each one and will loop back through the prompts.
+
+When all parameters have been defined, the password will appear within the password box.
+
+Technologies Used: HTML5, CSS and JavaScript
+
+# URL to the page
+https://naodhu.github.io/Password-Generator/
+
+https://github.com/naodhu/Password-Generator
 
 
+## Screenshot within successful entery
+<img width="1135" alt="Screen Shot 2022-11-30 at 18 56 42 pm" src="https://user-images.githubusercontent.com/113915529/204739291-1787be21-6a13-4abd-bfec-d86772e8e292.png">
 
 
-<img width="835" alt="Screen Shot 2022-11-30 at 18 46 08 pm" src="https://user-images.githubusercontent.com/113915529/204737344-bd33bbc9-599f-4b08-ad44-193deb1e2470.png">
+## Screenshot when there's an error!
+
+<img width="835" alt="Screen Shot 2022-11-30 at 18 46 08 pm" src="https://user-images.githubusercontent.com/113915529/204738157-83fc9dd0-6d93-46ff-af70-e88392216045.png">
+
+
+
+
+
